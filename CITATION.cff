@@ -3,7 +3,7 @@ message: "If you use this software or data, please cite the associated manuscrip
 title: "Path–Split–Balance: sub-second min–max fleet planning for selective apple harvesting with tethered-drone platforms"
 version: 1.0.1
 date-released: 2026-10-26
-url: "https://github.com/ufukasia/psb-precision-agriculture"
+url: "https://github.com/ufukasia/path-split-balance"
 type: software
 authors:
   - family-names: Asil

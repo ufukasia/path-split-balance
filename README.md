@@ -6,9 +6,9 @@
 
 Apple trees do not ripen on a convenient schedule. A robot returns with a full bin, the fruit visible from its new position changes, and suddenly yesterday’s route is no longer the right one.
 
-**Path–Split–Balance (PSB)** is the route planner I built for this problem. It gives a harvesting fleet a complete plan quickly, then keeps improving that plan while the machines are working. The repository contains the planner, the orchard simulations, and the experiments behind our Precision Agriculture manuscript.
+**Path–Split–Balance (PSB)** is the route planner I built for this problem. It gives a harvesting fleet a complete plan quickly, then keeps improving that plan while the machines are working. The repository contains the planner, the orchard simulations, and the experiments behind the accompanying manuscript.
 
-**[Watch the 95-second film](https://github.com/ufukasia/psb-precision-agriculture/releases/download/v1.0.0/ESM_1.mp4)** · **[Try a small example](#try-it-yourself)** · **[See the results](#what-we-found)** · **[Get the experiment data](https://github.com/ufukasia/psb-precision-agriculture/releases/download/v1.0.1/psb-reproducibility-data-v1.0.0.zip)**
+**[Watch the 95-second film](https://github.com/ufukasia/path-split-balance/releases/download/v1.0.0/Video_S1.mp4)** · **[Try a small example](#try-it-yourself)** · **[See the results](#what-we-found)** · **[Get the experiment data](https://github.com/ufukasia/path-split-balance/releases/download/v1.0.1/psb-reproducibility-data-v1.0.0.zip)**
 
 *The orchard and machines on this page are Blender renderings of our simulations, not footage from a physical harvesting trial.*
 
@@ -35,9 +35,9 @@ For the harvesting simulations, PSB-MT/R adds bin-capacity trips, estimated serv
 
 ## See it in motion
 
-[![Five-second preview of a simulated harvesting mission](docs/images/harvest-preview.gif)](https://github.com/ufukasia/psb-precision-agriculture/releases/download/v1.0.0/ESM_1.mp4)
+[![Five-second preview of a simulated harvesting mission](docs/images/harvest-preview.gif)](https://github.com/ufukasia/path-split-balance/releases/download/v1.0.0/Video_S1.mp4)
 
-The short preview loops here. **[The full film](https://github.com/ufukasia/psb-precision-agriculture/releases/download/v1.0.0/ESM_1.mp4)** shows the whole mission, including close-up picking, bin changes, and a platform taking over unfinished work.
+The short preview loops here. **[The full film](https://github.com/ufukasia/path-split-balance/releases/download/v1.0.0/Video_S1.mp4)** shows the whole mission, including close-up picking, bin changes, and a platform taking over unfinished work.
 
 ## What we found
 
@@ -87,7 +87,7 @@ The main branch is deliberately small: no virtual environments, solver binaries,
 <details>
 <summary><strong>Reproduce every table without rerunning the experiments</strong></summary>
 
-Download and extract the [results archive](https://github.com/ufukasia/psb-precision-agriculture/releases/download/v1.0.1/psb-reproducibility-data-v1.0.0.zip) in the repository root. It creates `experiments/out/` with all 4,403 run-level records and reports. Then run:
+Download and extract the [results archive](https://github.com/ufukasia/path-split-balance/releases/download/v1.0.1/psb-reproducibility-data-v1.0.0.zip) in the repository root. It creates `experiments/out/` with all 4,403 run-level records and reports. Then run:
 
 ```bash
 python experiments/report.py
